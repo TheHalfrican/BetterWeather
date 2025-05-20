@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB8EAB0B2DDD0E5A00B194B5 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = EB8EAB0A2DDD0E5A00B194B5 /* BottomSheet */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EB8EAAE62DDBC66D00B194B5 /* BetterWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8EAB0B2DDD0E5A00B194B5 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = BetterWeather;
 			packageProductDependencies = (
+				EB8EAB0A2DDD0E5A00B194B5 /* BottomSheet */,
 			);
 			productName = BetterWeather;
 			productReference = EB8EAAE62DDBC66D00B194B5 /* BetterWeather.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = EB8EAADD2DDBC66D00B194B5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EB8EAB092DDD0E5A00B194B5 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EB8EAAE72DDBC66D00B194B5 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB8EAB092DDD0E5A00B194B5 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				kind = exactVersion;
+				version = 1.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB8EAB0A2DDD0E5A00B194B5 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB8EAB092DDD0E5A00B194B5 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB8EAADE2DDBC66D00B194B5 /* Project object */;
 }
